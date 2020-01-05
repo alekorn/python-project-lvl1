@@ -2,4 +2,6 @@ install:
 	poetry install
 run:
 	poetry run brain-games
-.PHONY: install
+lint:
+	poetry run flake8 brain_games
+.PHONY: install run lint
