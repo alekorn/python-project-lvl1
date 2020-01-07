@@ -18,8 +18,8 @@ def game_logic():
             print('Correct!')
         else:
             print(f'\'{answer}\' is wrong answer ;(.'
-            'Correct answer was \'{correct_answer}\'./n'
-            'Let\'s try again, {name}!')
+                  'Correct answer was \'{correct_answer}\'./n'
+                  'Let\'s try again, {name}!')
             break
     else:
         print(f'Congratulations, {name}!')
