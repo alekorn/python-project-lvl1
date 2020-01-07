@@ -17,7 +17,9 @@ def game_logic():
         if answer == correct_answer:
             print('Correct!')
         else:
-            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'./nLet\'s try again, {name}!')
+            print(f'\'{answer}\' is wrong answer ;(.'
+            'Correct answer was \'{correct_answer}\'./n'
+            'Let\'s try again, {name}!')
             break
     else:
         print(f'Congratulations, {name}!')
