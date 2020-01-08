@@ -1,5 +1,4 @@
 import prompt
-import brain_games.games
 
 
 def game_engine(rule, game_question):
