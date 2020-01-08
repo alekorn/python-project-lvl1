@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.cli import greet
-from brain_games.even_game import game_logic
+from brain_games.games.even import rule, game_question
+from brain_games.engine import game_engine
 
 
 def main():
-    greet()
-    game_logic()
+    game_engine(rule, game_question)
 
 
 if __name__ == '__main__':
