@@ -13,7 +13,7 @@ def game_question():
     for i in range(10):
         if i == random_index:
             question_list.append('..')
-            answer  = str(index)
+            answer = str(index)
         else:
             question_list.append(index)
         index += progression_step
