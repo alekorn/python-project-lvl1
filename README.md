@@ -2,13 +2,13 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
 [![Build Status](https://travis-ci.com/alekorn/python-project-lvl1.svg?branch=master)](https://travis-ci.com/alekorn/python-project-lvl1)
-even game
+## even game
 [![asciicast](https://asciinema.org/a/pMa67NQLXV9gNQOdAZXl0r9pz.svg)](https://asciinema.org/a/pMa67NQLXV9gNQOdAZXl0r9pz)
-calc game
+## calc game
 [![asciicast](https://asciinema.org/a/7q2phdgtDvNZlyqjeWVollejE.svg)](https://asciinema.org/a/7q2phdgtDvNZlyqjeWVollejE)
-gcd game
+## gcd game
 [![asciicast](https://asciinema.org/a/6I968Z4X2lR97lSOTD3ZytB2L.svg)](https://asciinema.org/a/6I968Z4X2lR97lSOTD3ZytB2L)
-progression game
+## progression game
 [![asciicast](https://asciinema.org/a/mnHGMnam2UCAfJMbKtgMggukv.svg)](https://asciinema.org/a/mnHGMnam2UCAfJMbKtgMggukv)
-prime gamegame
+## prime game
 [![asciicast](https://asciinema.org/a/VrQouW5rDE83RMuOa5Ym0ayZd.svg)](https://asciinema.org/a/VrQouW5rDE83RMuOa5Ym0ayZd)
