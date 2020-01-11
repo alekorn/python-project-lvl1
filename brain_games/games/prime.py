@@ -2,7 +2,7 @@ import random
 
 
 def rule():
-    return 'Answer "yes" if number even otherwise answer "no".'
+    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game_question():
