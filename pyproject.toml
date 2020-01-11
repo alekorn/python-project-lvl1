@@ -6,7 +6,7 @@ authors = ["alekorn <entkorn@gmail.com>"]
 packages = [
     { include = "brain_games" },
   ]
-repository = ["https://github.com/alekorn/python-project-lvl1"]
+repository = "https://github.com/alekorn/python-project-lvl1"
 [tool.poetry.dependencies]
 python = "^3.7"
 prompt = "^0.4.1"
