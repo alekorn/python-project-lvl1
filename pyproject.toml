@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "alekorn_brain_games"
-version = "0.5.1"
-description = ""
-authors = ["Your Name <you@example.com>"]
+version = "0.5.2"
+description = "CLI games. My first programming project as part of a python course from hexlet.io"
+authors = ["alekorn <entkorn@gmail.com>"]
 packages = [
     { include = "brain_games" },
   ]
+repository = ["https://github.com/alekorn/python-project-lvl1"]
 [tool.poetry.dependencies]
 python = "^3.7"
 prompt = "^0.4.1"
