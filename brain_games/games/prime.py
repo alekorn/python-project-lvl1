@@ -1,18 +1,17 @@
 import random
 
 
-def rule():
-    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise correct_answer "no".'
 
 
-def game_question():
-    question = random.randint(1, 99)
+def game_logic():
+    game_task = random.randint(1, 99)
     prime_ints = (
         2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41,
         43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
     )
-    if question in prime_ints:
-        answer = 'yes'
+    if game_task in prime_ints:
+        correct_answer = 'yes'
     else:
-        answer = 'no'
-    return question, answer
+        correct_answer = 'no'
+    return game_task, correct_answer

@@ -1,12 +1,12 @@
 import prompt
 
 
-def game_engine(rule, game_question):
-    print('', 'Welcome to the Brain Games!', rule(), "", sep='\n')
+def game_engine(RULE, game_logic):
+    print('', 'Welcome to the Brain Games!', RULE, "", sep='\n')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!\n')
     for game_round in range(3):
-        question, answer = game_question()
+        question, answer = game_logic()
         user_answer = prompt.string(f'Question: {question}\nYour answer: ')
         if answer == user_answer:
             print('Correct!')

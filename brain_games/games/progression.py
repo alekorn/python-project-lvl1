@@ -1,21 +1,20 @@
 import random
 
 
-def rule():
-    return 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 
 
-def game_question():
+def game_logic():
     progression_step = random.randint(1, 10)
     random_index = random.randint(1, 10)
-    question_list = []
-    index = 1
-    for i in range(10):
-        if i == random_index:
-            question_list.append('..')
-            answer = str(index)
+    game_task_list = []
+    progression_index = random.randint(1, 10)
+    for index in range(10):
+        if index == random_index:
+            game_task_list.append('..')
+            correct_answer = str(progression_index)
         else:
-            question_list.append(index)
-        index += progression_step
-    question = ' '.join(list(map(str, question_list)))
-    return question, answer
+            game_task_list.append(progression_index)
+        progression_index += progression_step
+    game_task = ' '.join(list(map(str, game_task_list)))
+    return game_task, correct_answer
