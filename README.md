@@ -5,15 +5,15 @@
 
 CLI mini games
 
-## install
+## installation
 [![asciicast](https://asciinema.org/a/rWdVJ8b4mfAqJKnzWEdCnPr7o.svg)](https://asciinema.org/a/rWdVJ8b4mfAqJKnzWEdCnPr7o)
-## even game
+### even game
 [![asciicast](https://asciinema.org/a/EL8hzCrSPaCae99a1CCU2TLCo.svg)](https://asciinema.org/a/EL8hzCrSPaCae99a1CCU2TLCo)
-## calc game
+### calc game
 [![asciicast](https://asciinema.org/a/YVZgLpvBr7haC8oSHGmM2o8j8.svg)](https://asciinema.org/a/YVZgLpvBr7haC8oSHGmM2o8j8)
-## gcd game
+### gcd game
 [![asciicast](https://asciinema.org/a/BKjDRyGi1zJ4oC2ic2X8fPSZC.svg)](https://asciinema.org/a/BKjDRyGi1zJ4oC2ic2X8fPSZC)
-## progression game
+### progression game
 [![asciicast](https://asciinema.org/a/TdesxaC5K6fcXKm8pvcqITCC1.svg)](https://asciinema.org/a/TdesxaC5K6fcXKm8pvcqITCC1)
-## prime game
+### prime game
 [![asciicast](https://asciinema.org/a/2br5foegEMVjPoPPRKJP0ODZj.svg)](https://asciinema.org/a/2br5foegEMVjPoPPRKJP0ODZj)
