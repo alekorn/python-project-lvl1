@@ -7,7 +7,10 @@ def game_engine(RULE, game_logic):
     print(f'Hello, {user_name}!\n')
     for game_round in range(3):
         game_task, correct_answer = game_logic()
-        user_answer = prompt.string(f'Question: {game_task}\nYour correct_answer: ')
+        user_answer = prompt.string(
+            f'Question: {game_task}'
+            f'\nYour correct_answer: '
+        )
         if user_answer == correct_answer:
             print('Correct!')
         else:
