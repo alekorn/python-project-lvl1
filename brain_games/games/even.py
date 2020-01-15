@@ -4,7 +4,7 @@ import random
 RULE = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def game_logic():
+def generate_round():
     game_task = random.randint(1, 99)
     if game_task % 2 == 0:
         correct_answer = 'no'

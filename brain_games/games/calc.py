@@ -1,20 +1,19 @@
 import random
+import operator
 
 
 RULE = 'What is the result of the expression?'
 
 
-def game_logic():
+def generate_round():
     first_int = random.randint(1, 99)
     second_int = random.randint(1, 99)
-    operator = random.randint(1, 3)
-    if operator == 1:
-        game_task = f'{first_int} + {second_int}'
-        correct_answer = str(first_int + second_int)
-    elif operator == 2:
-        game_task = f'{first_int} - {second_int}'
-        correct_answer = str(first_int - second_int)
-    elif operator == 3:
-        game_task = f'{first_int} * {second_int}'
-        correct_answer = str(first_int * second_int)
+    OPERATORS = [
+        ("*", operator.mul),
+        ("+", operator.add),
+        ("-", operator.sub),
+        ]
+    operator_str, operator_func = random.choice(OPERATORS)
+    correct_answer = str(operator_func(first_int, second_int))
+    game_task = f'{first_int} {operator_str} {second_int}'
     return game_task, correct_answer

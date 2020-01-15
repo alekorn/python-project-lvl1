@@ -4,11 +4,11 @@ import random
 RULE = 'What number is missing in the progression?'
 
 
-def game_logic():
+def generate_round():
     progression_step = random.randint(1, 10)
     random_index = random.randint(1, 10)
-    game_task_list = []
     progression_index = random.randint(1, 10)
+    game_task_list = []
     for index in range(10):
         if index == random_index:
             game_task_list.append('..')
