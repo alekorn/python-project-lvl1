@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "alekorn_brain_games"
-version = "0.5.3"
+version = "0.5.4"
 description = "CLI games. My first programming project as part of a python course from hexlet.io"
 authors = ["alekorn <entkorn@gmail.com>"]
 packages = [
