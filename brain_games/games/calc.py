@@ -13,7 +13,8 @@ OPERATORS = [
 
 
 def generate_round():
-    random_int = random.randint(START_RANGE, END_RANGE)
+    first_int = random.randint(START_RANGE, END_RANGE)
+    second_int = random.randint(START_RANGE, END_RANGE)
     operator_str, operator_func = random.choice(OPERATORS)
     correct_answer = str(operator_func(first_int, second_int))
     game_task = f'{first_int} {operator_str} {second_int}'
