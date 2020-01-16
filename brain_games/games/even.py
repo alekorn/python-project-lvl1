@@ -1,6 +1,5 @@
 import random
 
-
 RULE = 'Answer "yes" if number even otherwise answer "no".'
 START_RANGE = 1
 END_RANGE = 99

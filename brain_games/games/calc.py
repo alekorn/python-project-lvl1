@@ -1,7 +1,6 @@
 import random
 import operator
 
-
 RULE = 'What is the result of the expression?'
 START_RANGE = 1
 END_RANGE = 99

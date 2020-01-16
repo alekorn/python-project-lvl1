@@ -1,6 +1,5 @@
 import random
 
-
 RULE = 'What number is missing in the progression?'
 START_RANGE = 1
 END_RANGE = 10
