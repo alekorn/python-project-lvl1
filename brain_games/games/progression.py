@@ -2,12 +2,14 @@ import random
 
 
 RULE = 'What number is missing in the progression?'
+START_RANGE = 1
+END_RANGE = 10
 
 
 def generate_round():
-    progression_step = random.randint(1, 10)
-    random_index = random.randint(1, 10)
-    progression_index = random.randint(1, 10)
+    progression_step = random.randint(START_RANGE, END_RANGE)
+    random_index = random.randint(START_RANGE, END_RANGE)
+    progression_index = random.randint(START_RANGE, END_RANGE)
     game_task_list = []
     for index in range(10):
         if index == random_index:
