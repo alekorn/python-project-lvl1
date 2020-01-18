@@ -17,5 +17,5 @@ def generate_round():
         else:
             game_task_list.append(progression_index)
         progression_index += progression_step
-    game_task = ' '.join(list(map(str, game_task_list)))
+    game_task = ' '.join(map(str, game_task_list))
     return game_task, correct_answer
