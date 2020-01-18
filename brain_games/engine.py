@@ -12,10 +12,8 @@ def run(game):
     print(f'Hello, {user_name}!\n')
     for game_round in range(GAME_ROUNDS):
         game_task, correct_answer = game.generate_round()
-        user_answer = prompt.string(
-            f'Question: {game_task}'
-            f'\nYour answer: '
-        )
+        print(f'Question: {game_task}')
+        user_answer = prompt.string(f'Your answer: ')
         if user_answer != correct_answer:
             print(
                 f"'{user_answer}' is wrong answer ;(. "
